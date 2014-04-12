@@ -5,14 +5,14 @@
     $(document).scroll(function(event){ 
       var scrollTop = $(document).scrollTop();
       var navHeight = $('#site-navigation').outerHeight();
-      // console.log('scroll: ', scrollTop);
-      // console.log('nav: ', navOffset);
-      // console.log('navheight:', navHeight);
-      // console.log(scrollTop + navOffset + navHeight);
+      console.log('scroll: ', scrollTop);
+      console.log('nav: ', navOffset);
+      console.log('navheight:', navHeight);
+      console.log(scrollTop + navOffset + navHeight);
 
-      // When the user scrolls to 357, apply CSS to stick the nav to the top
+      // When the user scrolls to 260, apply CSS to stick the nav to the top
       // currently set to a specific value. 
-      if(scrollTop >= 357) {
+      if(scrollTop >= 260) {
         $('#site-navigation').css({
           "position": "fixed",
           "top": "0",
