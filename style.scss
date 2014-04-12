@@ -1,0 +1,94 @@
+/*
+ Theme Name:   Andrew's Child (Ryu)
+ Template:     ryu
+ Version:      1.0.1 (March 30, 2014, 16:52)
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  twenty-fourteen-child
+ */
+
+ @import url("../ryu/style.css");
+
+/* =Theme customization starts here
+-------------------------------------------------------------- */
+
+/*Colors
+Darker Orange -  #d06600
+Lighter Orange - #ff7f04 */
+
+$darkOrange: "#d06600";
+$lightOrange: "#ff7f04";
+
+.entry-title, h1, .comment-respond {
+	font-family: "Open Sans";
+	/*font-style: italic;*/
+	line-height: 1.15em;
+}
+
+/*adds some space above the gravatar*/
+#masthead {
+	margin-top: 16px;
+}
+
+/* changes the link and link: hover color. Currently an orange */
+.entry-content a {
+	color: $lightOrange;
+}
+.entry-content:a {
+	color: $lightOrange;
+}
+.entry-content a:hover {
+	color: $darkOrange;
+	background-color: rgba(255,140,30,.1);
+}
+/*.menu {
+	background-color: rgba(255,140,30,.3);
+}*/
+.menu a:hover {
+	color: #d06600;
+}
+#navigation-main {
+	width: 80%;
+	margin: auto 0;
+}
+
+/*removes border from the site-navigation*/
+.navigation-main {
+	border: 0;
+	letter-spacing: .1em;
+}
+#masthead {
+	border: 0;
+	width: 100%;
+}
+.custom-top-nav {
+	position: fixed;
+	top: 0;
+}
+
+.categories-links a{
+	/*color: rgba(255,140,30,.5);*/
+	/*text-decoration: underline;*/
+}
+.categories-links a:hover {
+	background-color: rgba(255,140,30,.1);
+	color: #000;
+}
+
+h1 a:hover, .entry-meta a:hover {
+	color: #d06600;
+	background-color: rgba(255,140,30,.1);
+}
+
+#site-navigation {
+	background-color: rgba(255,140,30,.1);
+	width: 100%;
+}
+
+#submit {
+	color: #000;
+	background-color:#d06600;
+}
+
+#submit:hover {
+	background-color: #ff7f04;
+}
