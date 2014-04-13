@@ -12,7 +12,7 @@
 
       // When the user scrolls to 260, apply CSS to stick the nav to the top
       // currently set to a specific value. 
-      if(scrollTop >= 260) {
+      if(scrollTop >= 332) {
         $('#site-navigation').css({
           "position": "fixed",
           "top": "0",
