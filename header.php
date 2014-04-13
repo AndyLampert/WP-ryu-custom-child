@@ -1,3 +1,5 @@
+<!-- ryu_custom header backup -->
+
 <?php
 /**
  * The Header for our theme.
@@ -64,9 +66,6 @@
       <?php endif ;?>
 
     <!-- Removed all of Ryu's social functions -->
-
-    </ul>
-  </div>
 
 <div id="search-wrapper" class="toppanel hide">
   <?php get_search_form(); ?>
